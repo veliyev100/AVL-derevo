@@ -91,6 +91,7 @@ Node* remove(Node* p, int k) // удаление ключа k из дерева 
         min->left = q;
         return balance(min);
     }
+    return balance(p);
 }
 
 
